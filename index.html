@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Learning Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Tamil Learning Hub</h1>
+        <p>Learn subjects through videos, attempt exams, and watch detailed explanations.</p>
+        <nav>
+            <a href="#subjects">Subjects</a>
+            <a href="#exams">Exams</a>
+            <a href="#explanations">Explanations</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Subjects Section -->
+        <section id="subjects">
+            <h2>Subjects</h2>
+            <p>Explore videos for each subject.</p>
+            <div>
+                <h3>Mathematics</h3>
+                <h4>Lesson 1: Algebra Basics</h4>
+                <video controls>
+                    <source src="videos/algebra.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>In this lesson, you will learn the basics of algebra.</p>
+
+                <h4>Lesson 2: Geometry Introduction</h4>
+                <video controls>
+                    <source src="videos/geometry.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>This video introduces you to basic geometry concepts.</p>
+            </div>
+
+            <!-- Add other subjects in a similar manner -->
+        </section>
+
+        <!-- Exams Section -->
+        <section id="exams">
+            <h2>Exams</h2>
+            <p>Test your knowledge with exam question papers.</p>
+            <ul>
+                <li><a href="papers/math_exam1.pdf" download>Mathematics Exam 1</a></li>
+                <li><a href="papers/science_exam1.pdf" download>Science Exam 1</a></li>
+                <li><a href="papers/tamil_exam1.pdf" download>Tamil Exam 1</a></li>
+                <!-- More papers can be added -->
+            </ul>
+        </section>
+
+        <!-- Explanations Section -->
+        <section id="explanations">
+            <h2>Explanation Videos</h2>
+            <p>Watch explanation videos after completing the exams.</p>
+            <div>
+                <h4>Mathematics Exam 1 Explanation</h4>
+                <video controls>
+                    <source src="videos/math_explained.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <h4>Science Exam 1 Explanation</h4>
+                <video controls>
+                    <source src="videos/science_explained.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Tamil Learning Hub</p>
+    </footer>
+
+</body>
+</html>
